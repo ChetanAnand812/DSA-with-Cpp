@@ -4,7 +4,7 @@ using namespace std;
 int Sum(int n){
     int sum=0;
     for (int i=1;i<=n; i++){
-        int sum = sum + i;
+        sum = sum + i;
     }
     return sum;
 }
@@ -14,6 +14,6 @@ int main(){
     cout<<"Enter n: \n";
     cin>>n;
 
-    cout<<(n*(n+1)/2);
+    cout<<Sum(n)<<endl;
     return 0;
 }
