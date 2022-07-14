@@ -7,7 +7,7 @@ int linearSearch(int array[], int n, int key){
             return i;
         }
     }
-    return -1;
+    return -1;                                      // Time complexity -- O(n)
 }
 
 int main(){
